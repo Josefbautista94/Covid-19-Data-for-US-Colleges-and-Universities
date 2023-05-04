@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(119, 150, 243);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.front-page {
+  min-height: 120vh;
+}
+
+.header {
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px #333;
+}
+.buttons {
+  background: linear-gradient(90deg, #6699ff, #ff6666);
+  padding: 12px;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-right: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.chart-container {
+  background-color: #f8f8f8;
+  width: 60%;
+  background-color: rgb(119, 150, 243); /* a shade of girly blue */
+  margin-top: -30px;
+  padding: 12px;
+  margin-left: 250px;
+}
+
+.city-container {
+  width: 25%;
+  background-color: rgb(119, 150, 243); /* a shade of girly blue */
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-top: 250px;
+}
+
+.chart-container h2,
+.city-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fff7f7;
+}
+
+.chart-container h3,
+.city-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #333;
+}
+
+.chart {
+  height: 300px;
+}
+
+.city-container select {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #6699ff, #ff6666);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  appearance: none;
+  transform: scale(1.05);
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.city-container select:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.city-container select:focus {
+  outline: none;
+}
+
+.city-container select option {
+  background-color: #fff;
+  color: #333;
+}
+.city-container table {
+  width: 140%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.city-container th,
+.city-container td {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.city-container th {
+  background: linear-gradient(90deg, #6699ff, #ff6666);
+  color: #fff;
+}
+
+.city-container tbody tr:hover {
+  background: #ff6666;
+}
+
+.city-container tbody td:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
