@@ -185,7 +185,7 @@ function FrontPage() {
             ))}
           </tbody>
         </table>
-        <h3>
+        <h3 className  = "selectInfo">
           Presented here is a comprehensive chart showcasing all the cities in
           the United States, detailing the number of confirmed cases in both
           2020 and 2021. Additionally, the chart includes a breakdown of the
