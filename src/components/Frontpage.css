@@ -26,6 +26,7 @@ body {
   display: inline-block;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
+  margin-left: 220px;
 }
 
 .buttons button {
@@ -62,7 +63,7 @@ body {
   width: 25%;
   background-color: rgb(119, 150, 243); /* a shade of girly blue */
   border-radius: 10px;
-  margin-left: 450px;
+  margin-left: 600px;
   margin-top: 250px;
 }
 
@@ -103,6 +104,7 @@ body {
   cursor: pointer;
   text-align: center;
   font-weight: bold;
+  margin-left: 180px;
 }
 
 .city-container select:hover {
@@ -144,4 +146,8 @@ body {
 
 .city-container tbody td:nth-child(odd) {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.selectInfo {
+  margin-left: 200px;
 }
