@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Papa from "papaparse";
 import * as d3 from "d3";
 import "./Frontpage.css";
+import Chart from "chart.js";
+
 
 function FrontPage() {
   const [confirmedCases, setConfirmedCases] = useState([]);
